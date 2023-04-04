@@ -9,8 +9,8 @@ This program allows you to easily **track the time remaining** between `current_
 ## Run
 
 1. Python environment have to be installed on your machine
-2. run `git clone https://github.com/Ricky2333/Deadline-Timer.git ` in your teminal to clone the repository
-3. change your working direcotry into `code` and run `main.py`
+2. Run `git clone https://github.com/Ricky2333/Deadline-Timer.git` in your teminal to clone the repository
+3. Change your working direcotry to the `code` folder of the repository and run `main.py`
 
 ```python
 cd code
