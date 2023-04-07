@@ -25,8 +25,9 @@ def get_user_deadline(user_dict):
 
 def get_user_input(prompt, key, user_dict):
     user_input = input(prompt)
+    if user_input.lower() not in ['exit', '\'exit\'']:
         user_dict[key] = user_input
         return True
     else:
-        print_f("Program execution completed. See you next time!","end")
+        print_f("Program execution completed. See you next time!", "end")
         return False
