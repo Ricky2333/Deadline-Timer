@@ -25,7 +25,6 @@ def get_user_deadline(user_dict):
 
 def get_user_input(prompt, key, user_dict):
     user_input = input(prompt)
-    if user_input != 'exit' and user_input != '\'exit\'':
         user_dict[key] = user_input
         return True
     else:
